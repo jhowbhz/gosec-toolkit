@@ -1,0 +1,13 @@
+# binários compilados
+/spyder-credentials
+/spyder-credentials.exe
+*.exe
+*.exe~
+*~
+
+# saídas geradas em runtime
+spyder-credentials-*.jsonl
+_CREDENCIAIS-ENCONTRADAS.txt
+
+# estado operacional de ferramentas locais
+.omc/

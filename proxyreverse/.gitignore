@@ -1,0 +1,13 @@
+# binários compilados
+/proxyreverse
+/proxyreverse.exe
+*.exe
+*.exe~
+*~
+
+# logs gerados em runtime
+proxyreverse-*.jsonl
+*.jsonl
+
+# estado operacional de ferramentas locais
+.omc/

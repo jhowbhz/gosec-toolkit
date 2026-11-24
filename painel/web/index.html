@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>painel · kit de pentest</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>painel</h1>
+  <p>kit de pentest — rode as ferramentas e acompanhe a saída ao vivo</p>
+</header>
+
+<div id="erro" hidden></div>
+
+<main class="layout">
+  <aside class="painel" id="tools">
+    <h2>Ferramentas</h2>
+    <div class="lista" id="toolsLista"><p class="vazio-painel">Carregando…</p></div>
+  </aside>
+
+  <section class="painel" id="main">
+    <div class="form-head">
+      <h2 id="toolNome">Selecione uma ferramenta</h2>
+      <p id="toolDesc">Escolha à esquerda para montar a execução.</p>
+    </div>
+    <form id="form" hidden></form>
+    <div class="console-head">
+      <strong style="font-size:13px">Saída</strong>
+      <button class="btn secundario" id="btnParar" hidden>Parar</button>
+    </div>
+    <pre class="console" id="console" aria-live="polite"><span class="vazio">Nenhuma execução ainda.</span></pre>
+  </section>
+
+  <aside class="painel" id="runs">
+    <h2>Execuções</h2>
+    <div class="lista" id="runsLista"><p class="vazio-painel">Nenhuma ainda.</p></div>
+    <div class="artefatos" id="artefatos" hidden>
+      <h3>Artefatos</h3>
+      <ul id="artefatosLista"></ul>
+    </div>
+  </aside>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

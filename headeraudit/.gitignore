@@ -1,0 +1,12 @@
+# binários compilados
+/headeraudit
+/headeraudit.exe
+*.exe
+*.exe~
+*~
+
+# relatórios gerados em runtime
+headeraudit-*.jsonl
+
+# estado operacional de ferramentas locais
+.omc/

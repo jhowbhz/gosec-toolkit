@@ -1,0 +1,15 @@
+# binários compilados
+/download-dump
+/download-dump.exe
+*.exe
+*.exe~
+*~
+
+# manifestos gerados em runtime
+download-dump-*.jsonl
+
+# espelhos baixados em runtime
+dump-*/
+
+# estado operacional de ferramentas locais
+.omc/

@@ -1,0 +1,9 @@
+# relatórios gerados em runtime
+evidence-*.md
+
+# cache do Python
+__pycache__/
+*.pyc
+
+# estado operacional de ferramentas locais
+.omc/

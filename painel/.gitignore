@@ -1,0 +1,13 @@
+# binários compilados
+/painel
+/painel.exe
+*.exe
+*.exe~
+*~
+
+# cache de binários das ferramentas e execuções em runtime
+/bin-cache/
+/runs/
+
+# estado operacional de ferramentas locais
+.omc/

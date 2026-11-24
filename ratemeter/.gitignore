@@ -1,0 +1,12 @@
+# binários compilados
+/ratemeter
+/ratemeter.exe
+*.exe
+*.exe~
+*~
+
+# registros gerados em runtime
+ratemeter-*.jsonl
+
+# estado operacional de ferramentas locais
+.omc/

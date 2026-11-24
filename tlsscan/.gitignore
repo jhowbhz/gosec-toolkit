@@ -1,0 +1,12 @@
+# binários compilados
+/tlsscan
+/tlsscan.exe
+*.exe
+*.exe~
+*~
+
+# relatórios gerados em runtime
+tlsscan-*.jsonl
+
+# estado operacional de ferramentas locais
+.omc/

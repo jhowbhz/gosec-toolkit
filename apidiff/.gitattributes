@@ -1,0 +1,3 @@
+# normaliza fim de linha: LF no repositório para todo texto
+* text=auto eol=lf
+*.go text eol=lf

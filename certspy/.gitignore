@@ -1,0 +1,14 @@
+# binários compilados
+/certspy
+/certspy.exe
+*.exe
+*.exe~
+*~
+
+# saídas geradas em runtime
+certspy-*.txt
+certspy-*.jsonl
+certspy-*.md
+
+# estado operacional de ferramentas locais
+.omc/

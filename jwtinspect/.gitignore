@@ -1,0 +1,12 @@
+# binários compilados
+/jwtinspect
+/jwtinspect.exe
+*.exe
+*.exe~
+*~
+
+# relatórios gerados em runtime
+jwtinspect-*.jsonl
+
+# estado operacional de ferramentas locais
+.omc/

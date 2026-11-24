@@ -1,0 +1,14 @@
+# binários compilados
+/spyder
+/spyder.exe
+*.exe
+*.exe~
+*~
+
+# saídas de runtime
+spyder-*.db
+*.db
+*.db-journal
+
+# estado operacional de ferramentas locais
+.omc/

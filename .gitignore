@@ -1,0 +1,33 @@
+# binários compilados
+*.exe
+*.exe~
+*~
+painel/painel
+
+# artefatos gerados em runtime (cada ferramenta escreve os seus)
+*.jsonl
+*.db
+*.sqlite
+*.sqlite3
+_CREDENCIAIS-ENCONTRADAS.txt
+dump-*/
+painel/runs/
+painel/bin-cache/
+
+# relatórios/listas gerados com timestamp
+evidence-*.md
+certspy-*.md
+certspy-*.txt
+tlsscan-*.txt
+headeraudit-*.txt
+
+# python
+__pycache__/
+*.pyc
+
+# estado operacional de ferramentas locais
+.omc/
+
+# sistema
+.DS_Store
+Thumbs.db

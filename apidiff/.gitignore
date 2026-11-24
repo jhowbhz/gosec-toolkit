@@ -1,0 +1,12 @@
+# binários compilados
+/apidiff
+/apidiff.exe
+*.exe
+*.exe~
+*~
+
+# saídas geradas em runtime
+apidiff-*.jsonl
+
+# estado operacional de ferramentas locais
+.omc/

@@ -1,0 +1,12 @@
+# binários compilados
+/jsleak
+/jsleak.exe
+*.exe
+*.exe~
+*~
+
+# manifestos gerados em runtime
+jsleak-*.jsonl
+
+# estado operacional de ferramentas locais
+.omc/
